@@ -7,7 +7,7 @@ using R much easier and more interactive. You need to install R before you
 install RStudio. After installing both programs, you will need to install 
 some specific R packages within RStudio. Follow the instructions below for
 your operating system, and then follow the instructions to install
-**`tidyverse`** and **`RSQLite`**.
+**`tidyverse`** and **`cowplot`**.
 
 #### Windows
 
@@ -85,6 +85,8 @@ your operating system, and then follow the instructions to install
 * Once it's installed, open RStudio to make sure it works and you don't get any
    error messages.
 
-* After installing R and RStudio, you need to install the `tidyverse` and 'cowplot' packages. Start RStudio by double-clicking the icon and then type:
+### R Packages
+
+* After installing R and RStudio, you need to install the `tidyverse` and `cowplot` packages. Start RStudio by double-clicking the icon and then type:
   `install.packages(c("tidyverse", "cowplot"))`. You can also do this by going to Tools -> Install Packages and 
   typing the names of the packages you want to install, separated by a comma.
